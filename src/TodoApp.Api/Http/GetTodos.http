@@ -1,0 +1,27 @@
+### 
+GET https://127.0.0.1:5001/todos
+Accept: application/json
+
+### 
+GET https://127.0.0.1:5001/todos/1
+Accept: application/json
+
+### 
+POST https://127.0.0.1:5001/todos
+Content-Type: application/json
+
+{
+  "title": "My Todo"
+}
+
+### 
+PATCH https://127.0.0.1:5001/todos/1
+Content-Type: application/json
+
+{
+  "title": "My Updated Todo"
+}
+
+### 
+DELETE https://127.0.0.1:5001/todos/1
+Content-Type: application/json
